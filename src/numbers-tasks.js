@@ -207,6 +207,15 @@ function roundToPowerOfTen(num, pow) {
  *   17 => true
  */
 function isPrime(/* n */) {
+  // if (n <= 1) {
+  //   return false;
+  // }
+  // for (let i = 2; i < Math.sqrt(n); i + 1) {
+  //   if (n % i === 0) {
+  //     return false;
+  //   }
+  // }
+  // return true;
   throw new Error('Not implemented');
 }
 
@@ -357,8 +366,8 @@ function getSine(num) {
  * 255, 16 => 'ff'
  * 2, 2    => '10'
  */
-function numberToStringInBase(/* number, base */) {
-  throw new Error('Not implemented');
+function numberToStringInBase(number, base) {
+  return number.toString(base);
 }
 
 /**
